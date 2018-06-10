@@ -21,6 +21,7 @@ sig
   (* Add a new theorem to a configuration
    *   - tp should be the actual proposition proved
    *   - extract should be the realizer for the proof of the theorem
+   * 
    *)
   val insert : {name : Guid.t, tp : Term.t, extract : Term.t} -> t -> t
 
